@@ -9,8 +9,8 @@ dependencies:
     specifier: ^1.0.0
     version: 1.0.0
   '@peasy-lib/peasy-ui':
-    specifier: ^0.9.48
-    version: 0.9.48
+    specifier: ^0.9.49
+    version: 0.9.49
 
 devDependencies:
   typescript:
@@ -224,8 +224,8 @@ packages:
     resolution: {integrity: sha512-r4obM//16KWM3jcAXQDKc3U6YRvZb1/yFFdFy2ZaKiQKRWZdJjVk8yBgTCD0zkznqbYXtQ6mHIjUzozUJNo68w==}
     dev: false
 
-  /@peasy-lib/peasy-ui@0.9.48:
-    resolution: {integrity: sha512-WDJWAYXK1bwK34MJztZIf5SXvGaCpZYvKyyTCGd/Mk7DiGFWaCVYiJNBKArfXFCTOl1OhLDDwUL8Es6kXNyCfA==}
+  /@peasy-lib/peasy-ui@0.9.49:
+    resolution: {integrity: sha512-9FUV3oz9cdYBBgaZDmao+r/o8iHSlHowlEDugz5ftsufrXRIPohU9SkWDEQ99OZrK3cjs9f+ZPoXZeJNqryTIg==}
     engines: {node: '>=14.17.0'}
     dev: false
 
