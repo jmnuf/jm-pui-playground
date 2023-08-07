@@ -14,9 +14,9 @@ class Item {
 	toggled: boolean;
 	template = `
 	<div>
-		Name: \${name} (\${toggled}) <!-- Rendered component state -->
-		<button \${ click @=> toggle }>Toggle</button> <!-- Updates component state -->
-		<button \${ click @=> delete }>Delete</button> <!-- Updates state above/outside component -->
+		Name: \${name} (\${toggled})
+		<button \${ click @=> toggle }>Toggle</button>
+		<button \${ click @=> delete }>Delete</button>
 	</div>`;
 
 	constructor(name: string, toggled = false) {
@@ -36,12 +36,10 @@ class App {
 	};
 	delete = (e: DeleteItemEvent) => this.list = this.list.filter(item => item !== e.detail);
 
-	static template = `
-    <div \${ delete-item @=> delete }> <!-- Binds custom event! -->
+	static template = `<div \${ delete-item @=> delete }>
       <div><input \${ value <=> value }> <button \${ click @=> add }>Add</button></div>
-      < \${ item === } \${ item <=* list} />
-    </div>
-    `;
+      <\${ item === } \${ item <=* list}/>
+    </div>`;
 }
 const app = new App();
 
